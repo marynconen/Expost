@@ -14,4 +14,4 @@ using System.Runtime.InteropServices;
 [assembly: Guid("986cae27-1a78-405e-9150-36e70156c475")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: InternalsVisibleTo("Expost.GitHubConnectivity")]
+[assembly: InternalsVisibleTo("Expost.Requirements")]
