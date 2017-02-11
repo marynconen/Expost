@@ -16,7 +16,8 @@
 
         [Test]
         public void CommitShouldContainMessage() {
-            var commit = new Commit("not empty");
+            var gitHubConnection = new GitHubConnection();
+            var commit = gitHubConnection.GetCommits().First();
             Assert.That(string.IsNullOrWhiteSpace(commit.Message), Is.False);
         }
 
