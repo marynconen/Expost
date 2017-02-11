@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expost.Requirements", "Expo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expost.GitHubConnectivity", "Expost.GitHubConnectivity\Expost.GitHubConnectivity.csproj", "{986CAE27-1A78-405E-9150-36E70156C475}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expost.ProjectManagement", "Expost.ProjectManagement\Expost.ProjectManagement.csproj", "{C8E76470-F24B-4BFD-8128-5262E6440837}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{986CAE27-1A78-405E-9150-36E70156C475}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{986CAE27-1A78-405E-9150-36E70156C475}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{986CAE27-1A78-405E-9150-36E70156C475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E76470-F24B-4BFD-8128-5262E6440837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E76470-F24B-4BFD-8128-5262E6440837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E76470-F24B-4BFD-8128-5262E6440837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E76470-F24B-4BFD-8128-5262E6440837}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
