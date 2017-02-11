@@ -5,7 +5,7 @@
     internal class GitHubConnection {
 
         public IEnumerable<Commit> GetCommits() {
-            yield return new Commit();
+            yield return new Commit("");
         }
 
     }

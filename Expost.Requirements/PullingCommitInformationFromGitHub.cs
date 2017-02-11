@@ -14,5 +14,11 @@
             Assert.That(() => commits.Count(), Is.GreaterThan(0));
         }
 
+        [Test]
+        public void CommitShouldContainMessage() {
+            var commit = new Commit("not empty");
+            Assert.That(string.IsNullOrWhiteSpace(commit.Message), Is.False);
+        }
+
     }
 }
