@@ -1,2 +1,2 @@
-branchName: 'Issue ${issue.number}'
+branchName: 'Issue-${issue.number}'
 autoCloseIssue: true
