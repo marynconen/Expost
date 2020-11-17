@@ -1,0 +1,2 @@
+branchName: 'Issue ${issue.number}'
+autoCloseIssue: true
